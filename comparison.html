@@ -31,7 +31,7 @@
               <span class="icon-bar"></span>
             </button>
             <div class="col-xs-9 phone-nav">
-              <a class="navbar-brand" href="#" id="logo">WeatherPy</a>
+              <a class="navbar-brand" href="index.html" id="logo">WeatherPy</a>
             </div>
           </div>
 
@@ -57,43 +57,43 @@
     <!-- End of navbar -->
 
     <!-- Start of container -->
-    <div class ="container">
-        <section class="row">
-            <div class="col-md-8">
-                <article class="description-content">
-                    <h1 class="description-header">Summary: Latitude vs Max Temp </h1>
-                    <hr class="description-hr" />
-                    <img src= assets/images/Fig1.png title="Latitude vs Max temp" alt="" id="description-image" />
-                    <p>The purpose of this analysis was to see how weather changes as you get closer to the equator. To do so data was pulled from the OpenWeatherAPI to assemble a dataset of over 500 cities.</p>
-                    <p>After gathering and structuring data Matplotlib was used to visualize various relationships with latitude and weather attributes. these attributes included: temperature, cloudiness, wind speed, and humidity. Source data is also provided on the site.</p>
-                </article>
-            </div>
-            <div class="col-md-4">
-                <section id="imageNav-area">
-                    <div class="imageNav-content">
-                        <h2 class="imageNav-header">Visualizations</h2>
-                        <hr>
-                        <div id="images">
-                            <a href="temp.html">
-                                <img src= assets/images/Fig1.png title="Latitude vs Max temp" alt="" class="imageNav-photo" />
-                            </a>
-                            <a href="humidity.html"> 
-                                <img src= assets/images/Fig2.png title="Latitude vs Humidity" alt="" class="imageNav-photo" />
-                            </a>
-                            <a href="cloudiness.html">
-                                <img src= assets/images/Fig3.png title="Latitude vs Cloudiness" alt="" class="imageNav-photo" />
-                            </a>
-                            <a href="wind.html">
-                                <img src= assets/images/Fig4.png title="Latitude vs Wind Speed" alt="" class="imageNav-photo" />
-                            </a>
-                            
-                        </div>
-                    </div>
-                </section>
-            </div>
-        </section>
-    </div>
-   
+   <div class="container">
+     <article class="description-content row">
+       <div class="col-xs-12">
+        <h1 class="description-header"> Comparison: Latitude vs. X </h1>
+            <hr class="description-hr" />
+            <p>Click any plot to get an in depth analysis.</p>   
+       </div>
+       <div class="col-md-6">
+         <h2 class="comparison-header" >vs. Max Temperature</h2>
+         <a href="temp.html">
+            <img src= assets/images/Fig1.png title="Latitude vs Max temp" alt="" class="comparison image img-responsive" />
+         </a>
+         <hr class="visible-xs visible-sm">
+      </div>
+      <div class="col-md-6">
+        <h2 class="comparison-header" >vs. Humidity</h2>
+        <a href="humidity.html">
+          <img src= assets/images/Fig2.png title="Latitude vs Max temp" alt="" class="comparison image img-responsive" />
+       </a>
+        <hr class="visible-xs visible-sm">  
+      </div>
+      <div class="col-md-6">
+        <h2 class="comparison-header" >vs. Cloudiness</h2>
+        <a href="cloudiness.html">
+          <img src= assets/images/Fig3.png title="Latitude vs Max temp" alt="" class="comparison image img-responsive" />
+        </a>
+        <hr class="visible-xs visible-sm">
+      </div>
+      <div class="col-md-6">
+        <h2 class="comparison-header" >vs. Wind Speed</h2>
+        <a href="wind.html">
+          <img src= assets/images/Fig4.png title="Latitude vs Max temp" alt="" class="comparison image img-responsive" />
+        </a>
+        <hr class="visible-xs visible-sm">
+      </div>
+     </article>
+   </div>
     <!-- End of container -->
 
     <!-- Start of footer -->
